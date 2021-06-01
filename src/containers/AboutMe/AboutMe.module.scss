@@ -1,0 +1,82 @@
+.img {
+  width: 300px;
+  height: 400px;
+  background: url('../../assets/illustrations/me.jpg') no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+.img:hover {
+  transform: rotateY(180deg);
+  background: url('../../assets/illustrations/me2.jpg') no-repeat;
+  background-size: cover;
+}
+
+.intro,
+.hobby {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+
+  > div {
+    padding-top: 5rem;
+  }
+}
+
+.introInfo {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8rem;
+  align-items: center;
+  // padding: 2rem;
+
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   box-sizing: border-box;
+  //   width: 0;
+  //   height: 0;
+  //   border: 2px solid transparent;
+  //   top: 0;
+  //   left: 0;
+  //   border-top-color: #FFF;
+  //   border-right-color: #FFF;
+  //   animation: borderTop 2s infinite;
+  // }
+}
+
+// @keyframes borderTop {
+//   0% {
+//     width: 0;
+//     height: 0;
+//   }
+//   50% {
+//     width: 30%;
+//     height: 0;
+//   }
+//   100% {
+//     width: 60%;
+//     height: 0;
+//   }
+// }
+
+.hobby_slider {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  align-items: center;
+  column-gap: 1.5rem;
+
+  img {
+    cursor: pointer;
+  }
+
+  .darkArrow {
+    cursor: default;
+  }
+}

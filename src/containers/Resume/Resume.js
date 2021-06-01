@@ -1,0 +1,1 @@
+// Rok temu odkryłam pasję do tworzenia aplikacji webowych i postanowiłam od razu rozpocząć naukę. Uwielbiam poznawać nowe rzeczy i poszerzać swoją wiedzę.

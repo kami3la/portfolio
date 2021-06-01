@@ -1,0 +1,38 @@
+.stars, .twinkling, .clouds {
+  min-height: 100%;
+  min-width: 1024px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.stars {
+  background: #000 url('../../assets/illustrations/stars.png') repeat center;
+  z-index: 0;
+}
+  
+.twinkling {
+  background: transparent url('../../assets/illustrations/twinkling.png') repeat center;
+  z-index: 2;
+  animation: move-twinkle-back 200s linear infinite;
+}
+  
+.clouds {
+  background: transparent url('../../assets/illustrations/clouds.png');
+  background-repeat: round;
+  z-index: 3;
+  opacity: 0.4;
+  animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-clouds-back {
+  from {background-position: 0 0;}
+  to {background-position: 10000px 0}
+}
+
+@keyframes move-twinkle-back {
+  from {background-position: 0 0;}
+  to {background-position: 10000px 5000px}
+}

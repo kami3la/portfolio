@@ -1,0 +1,13 @@
+.intro {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .introBox {
+    width: fit-content;
+    display: grid;
+    row-gap: 2rem;
+  }
+}

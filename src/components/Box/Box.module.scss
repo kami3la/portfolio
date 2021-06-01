@@ -1,0 +1,11 @@
+.box {
+  height: fit-content;
+  background: rgba(191, 79, 97, 0.1);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding-bottom: 1.5rem;
+}
