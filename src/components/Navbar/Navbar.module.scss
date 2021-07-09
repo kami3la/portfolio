@@ -33,7 +33,7 @@
   list-style-type: none;
   position: relative;
 
-  :before {
+  &::before {
     position: absolute;
     content: "";
     width: 0;
@@ -45,7 +45,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  :hover:before {
+  &:hover::before {
     visibility: visible;
     width: 100%;
   }
@@ -65,9 +65,8 @@
 
   &.clicked {
     pointer-events: none;
-    position: relative;
 
-    :before {
+    &::before {
       position: absolute;
       content: "";
       width: 0;

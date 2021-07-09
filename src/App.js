@@ -4,6 +4,8 @@ import Background from './components/Background/Background'
 import Navbar from './components/Navbar/Navbar'
 import Home from './containers/Home/Home'
 import AboutMe from './containers/AboutMe/AboutMe'
+import Resume from './containers/Resume/Resume'
+import Projects from './containers/Projects/Projects'
 
 const App = () => {
   return (
@@ -18,12 +20,12 @@ const App = () => {
         <Route path="/home" exact>
           <Home />
         </Route>
-        {/* <Route path="/resume" exact>
+        <Route path="/resume" exact>
           <Resume />
         </Route>
         <Route path="/projects" exact>
           <Projects />
-        </Route> */}
+        </Route>
         <Route path="/about-me" exact>
           <AboutMe />
         </Route>

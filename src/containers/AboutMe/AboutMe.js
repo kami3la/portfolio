@@ -1,70 +1,93 @@
-import React, { useState } from 'react';
-// import AwesomeSlider from 'react-awesome-slider';
-// import 'react-awesome-slider/dist/styles.css';
-import { intro, introInfo, img, hobby, hobby_slider, darkArrow } from './AboutMe.module.scss';
+import React from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/src/styles.js';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import { intro, introInfo, img, hobby, container1, container2, hobbySlider, travels, travelsSlider, awssld, box } from './AboutMe.module.scss';
+
 import Title from '../../components/Title/Title';
 import Box from '../../components/Box/Box';
-import LArrow from '../../assets/icons/LArrow.png';
-import LArrow2 from '../../assets/icons/LArrow2.png';
-import RArrow from '../../assets/icons/RArrow.png';
-import RArrow2 from '../../assets/icons/RArrow2.png';
 
-let hobbyBoxes = {
-  0: 
-    <Box
-      title={<Title text='Volleyball' size={20} bold='bold' />}
-      text='I love team games, especially volleyball. I trained it for 6 years, and I started in primary school when I went to a sport class. It has always been a lot of fun for me and I still enjoy playing with my friends whenever the opportunity arises.'
-      width={3}
-    />,
-  1: 
-    <Box
-      title={<Title text='Houseplants' size={20} bold='bold' />}
-      text='Potted plants are my next passion. I believe that colorful pots with well-kept flowers are an indispensable element of my home. It gives me great joy when a plant sprouts a new leaf, stain or flower.'
-      width={4}
-      />,
-  2:
-    <Box
-      title={<Title text='Traveling' size={20} bold='bold' />}
-      text='It is very important for me to travel, both in Poland and to other countries. That is why I always try to visit new places and discover foreign cultures in my spare time. After each journey, I am richer with new knowledge and experience, which I greatly appreciate.'
-    />,
-  3: 
-    <Box
-      title={<Title text='Billiards' size={20} bold='bold' />}
-      text='My last interest, this time quite unusual, is billiards. An evening game of pool is a perfect time for me. I have been playing socializing for many years and I never get tired of it.'
-    />
-}
+import France from '../../assets/illustrations/francja.jpg';
+import Granada from '../../assets/illustrations/granada.jpg';
+import Aveiro from '../../assets/illustrations/portugalia.jpg';
+import Malta from '../../assets/illustrations/malta.jpg';
+import Poland from '../../assets/illustrations/polska.jpg';
+import Nl from '../../assets/illustrations/holandia.jpg';
+
+let hobbyBoxes = [
+  [<Box
+    title={<Title text='Games - volleyball' size={20} bold='bold' />}
+    text='I love all kinds of games, especially logic and team games. In my free time, I am happy to solve crosswords and nonograms, play computer games and board games, and go to escape rooms. My favourite sport is volleyball. When I was younger, I trained it for 6 years, and I started in elementary school when I went to the sports class. I&rsquo;ve always had a lot of fun doing it, and I still enjoy playing with my friends whenever the opportunity arises. That is why every time we go to the lake, camping or the sea, we always take a volleyball ball with us. There is no more favorable environment for volleyball pads than soft sand.'
+  />],
+  [<Box
+    title={<Title text='Houseplants' size={20} bold='bold' />}
+    text='Potted plants are my next passion. I believe that colorful pots with well-kept plants are an indispensable element of my home. It gives me great joy when a plant produces a new leaf, flower, or a new baby. It all started with the purchase of one single plant and before I knew it, there was a whole collection of plants on my shelves. Potted plants are amazing because they photosynthesize, increases the humidity in the room and also has a relaxing effect on us. In addition, many plants have their own specific properties and application possibilities, for example some plants can be used in the kitchen or to create various types of cosmetics or medicines. The only downside to having potted plants for me is the problem with taking care of them during my trips.'
+  />],
+  [<Box
+    title={<Title text='Traveling' size={20} bold='bold' />}
+    text='It is very important for me to travel both in Poland and to other countries. That is why in my spare time I always try to visit new places and discover foreign cultures. After each trip, I am richer with new knowledge and experience, which I appreciate very much. My favorite type of travel is visiting as many places and doing as many things as possible, so I usually not only limit myself to the destination but also travel to nearby cities as well as countries. I love meeting new cultures and new people, that&rsquo;s why I once hitchhiked in Spain. This is the fastest way to meet new people and meet their stories.'
+  />],
+  [<Box
+    title={<Title text='Billiards' size={20} bold='bold' />}
+    text='My last interest, quite unusual this time, is billiards. An evening game of pool with my friends is the perfect time for me. I have been playing socializing for many years and I never get tired of it. My passion is also shared by my parents who decided to buy a pool table, which was certainly a very wise decision during the recent lockdowns. I really like assembling furniture according to the instruction algorithm, but I have to admit that assembling the pool table was quite a challenge.'
+  />]
+];
+
+const makeHobbyItem = (item) => {
+  return <div>{item}</div>
+};
+
+const slider = (
+  <AwesomeSlider animation="cubeAnimation" className={awssld}>
+    {hobbyBoxes.map((item) => makeHobbyItem(...item))}
+  </AwesomeSlider>
+);
+
+const slider2 = (
+  <AwesomeSlider animation="cubeAnimation">
+    <div data-src={France} />
+    <div data-src={Granada} />
+    <div data-src={Aveiro} />
+    <div data-src={Malta} />
+    <div data-src={Poland} />
+    <div data-src={Nl} />
+  </AwesomeSlider>
+);
 
 const AboutMe = () => {
-  const [hobbyCounter, setHobbyCounter] = useState(0);
-
-  const prevHobby = (e) => {
-    e.preventDefault();
-    return setHobbyCounter(hobbyCounter-1);
-  }
-  
-  const nextHobby = (e) => {
-    e.preventDefault();
-    return setHobbyCounter(hobbyCounter+1);
-  }
 
   return (
     <div>
-      <div className={intro}>
-        <Title text='A few words about who I am' size={30} bold='bold' />
-        <div className={introInfo}>
-          <div alt='Me' className={img}></div>
-          <Box
-            text='I am 23 years old and I was born in Gorzów Wielkopolski. I live and study in Poznań. Apart from programming, I also love traveling, 
-            meeting new people, drinking good coffee, being surrounded by animals, solving puzzles and just being out in nature.'
-          />
+      <div className={container1}>
+        <div className={intro}>
+          <Title text='A few words about who I am' size={30} bold='bold' />
+          <div className={introInfo}>
+            <div alt='Me' className={img}></div>
+            <div className={box}>
+              <Box
+                text='I am 23 years old and I live and study in Poznań, Poland. I was supposed to become a mathematics and computer science teacher, but during my 
+                studies I encountered programming which made me extremely interested. Then I decided to start learning web programming and my passion and love for coding only grew. Programming makes me 
+                happy, it gives me challenges that I like so much, and it satisfies my desire for continuous learning. Apart from programming, I also love traveling, meeting new people, drinking good 
+                coffee, being surrounded by animals, solving puzzles and just being out in nature.'
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div className={hobby}>
-        <Title text='My hobby' size={30} bold='bold' />
-        <div className={hobby_slider}>
-          {hobbyBoxes[hobbyCounter-1] ? <img src={LArrow} onClick={prevHobby} alt='Previous hobby' /> : <img src={LArrow2} alt='No previous hobby' className={darkArrow}/>}
-          {hobbyBoxes[hobbyCounter]}
-          {hobbyBoxes[hobbyCounter+1] ? <img src={RArrow} onClick={nextHobby} alt='Next hobby' /> : <img src={RArrow2} alt='No next hobby' className={darkArrow}/>}
+      <div className={container2}>
+        <div className={hobby}>
+          <Title text='My hobby' size={30} bold='bold' />
+          <div className={hobbySlider}>
+            {slider}
+          </div>
+        </div>
+      </div>
+      <div className={container1}>
+        <div className={travels}>
+          <Title text='My travels' size={30} bold='bold' />
+          <div className={travelsSlider}>
+            {slider2}
+          </div>
         </div>
       </div>
     </div>
