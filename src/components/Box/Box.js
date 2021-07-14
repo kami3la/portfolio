@@ -11,10 +11,22 @@ const Box = ({ title, text }) => {
     }
   }
 
+  const checkString = () => {
+    if (text.split('\\u')[1]) {
+      const tab = text.split('\\u')
+      const tab1 = tab[0].split('\\n').map((item, i) => <p key={i}><br/><br/>{item}</p>)
+      const tab2 =  <a href={tab[1]} rel='noreferrer' className={styles.link} target='_blank'>Click here !</a>
+
+      return ( [tab1, tab2] )
+    } else {
+      return text;
+    }
+  }
+
   return (
     <div className={styles.box}>
       {ifTitle()}
-      <div className={styles.textStyle}>{text.split('\\n').map((item, i) => <p key={i}>{item}<br/><br/></p>)}</div>
+      <div className={styles.textStyle}>{checkString()}</div>
     </div>
   );
 }
@@ -27,6 +39,8 @@ Box.propTypes = {
   text: PropTypes.string.isRequired
 }
 
-Box.defaultProps = { title: '' };
+Box.defaultProps = {
+  title: ''
+};
 
 export default Box;

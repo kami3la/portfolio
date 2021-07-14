@@ -35,42 +35,106 @@
   transform: rotate(360deg);
 }
 
-.container1 {
-  height: 90vh;
-  width: 100%;
-  padding: 7rem 0;
+.container {
+  min-height: 90vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
   margin-bottom: 6rem;
+
+  @media (max-width: 922px) {
+    min-height: 90vh;
+  }
 }
 
-.box {
-  height: fit-content;
+.intro,
+.hobby {
+  width: 60%;
+
+  @media (max-width: 1700px) {
+    width: 65%;
+  }
+
+  @media (max-width: 1400px) {
+    width: 75%;
+  }
+
+  @media (max-width: 1200px) {
+    width: 85%;
+
+    .img {
+      width: 250px;
+      height: 350px;
+    }
+  }
+
+  @media (max-width: 922px) {
+    padding-top: 5rem;
+  }
 }
 
-.container2 {
-  height: 40vh;
-  width: 100%;
-  margin: 15rem 0;
+.hobby {
+
+  @media (max-width: 1060px) {
+    width: 50%;
+  }
+
+  @media (max-width: 922px) {
+    width: 60%;
+  }
+
+  @media (max-width: 780px) {
+    width: 70%;
+  }
+
+  @media (max-width: 650px) {
+    width: 85%;
+  }
+}
+
+.travels {
+  width: 45%;
+
+  @media (max-width: 1400px) {
+    width: 60%;
+  }
+
+  @media (max-width: 1200px) {
+    width: 70%;
+  }
+
+  @media (max-width: 900px) {
+    width: 95%;
+  }
 }
 
 .intro,
 .hobby,
 .travels {
-  width: fit-content;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   cursor: default;
-  margin: auto;
+  gap: 5rem;
 }
 
 .introInfo {
-  width: 55vw;
+  width: fit-content;
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 8rem;
   align-items: flex-start;
+
+  @media (max-width: 922px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
   // padding: 2rem;
 
   // &::before {
@@ -119,16 +183,81 @@
 //   }
 // }
 
-
-.hobbySlider,
 .travelsSlider {
-  width: 40vw;
+  width: 100%;
 }
 
-.awssld {
-  --content-background-color: none !important;
+.hobbyBoxes {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 4rem;
+
+  @media (max-width: 1060px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-// .awssld__content {
-//   height: fit-content !important;
+.hobbyBox {
+  width: 100%;
+  height: 400px;
+  perspective: 600px;
+
+  @media (max-width: 1550px) {
+    height: 465px;
+  }
+
+  @media (max-width: 1060px) {
+    height: 420px;
+  }
+
+  @media (max-width: 600px) {
+    height: 500px;
+  }
+
+  @media (max-width: 410px) {
+    height: 620px;
+  }
+
+  @media (max-width: 350px) {
+    height: 720px;
+  }
+}
+
+.hobbyBoxContent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.frontBox {
+  background: rgba(191, 79, 97, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbyBox:hover .hobbyBoxContent {
+  transform: rotateY(180deg);
+  transition: transform 0.6s linear;
+}
+
+.frontBox,
+.backBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.backBox {
+  transform: rotateY(180deg);
+}
+// .awssld {
+//   --content-background-color: none !important;
 // }
