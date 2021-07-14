@@ -214,16 +214,12 @@
     height: 420px;
   }
 
-  @media (max-width: 600px) {
-    height: 500px;
+  @media (max-width: 650px) {
+    height: 280px;
   }
-
-  @media (max-width: 410px) {
-    height: 620px;
-  }
-
-  @media (max-width: 350px) {
-    height: 720px;
+  
+  @media (max-width: 370px) {
+    height: 200px;
   }
 }
 
