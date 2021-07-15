@@ -1,10 +1,13 @@
 export const PL = {
   language: "Polski",
+  resume: {
+    intro: `Rok temu odkryłam swoją pasję do tworzenia aplikacji internetowych i od tego czasu z przyjemnością kontynuuję swoją przygodę z programowaniem i uczeniem się nowych rzeczy. Jestem osobą kreatywną, z otwartym umysłem i nie bojącą się wyzwań. Moje umiejętności interpersonalne pozwalają mi doskonale pracować w grupie i
+    sprawnie nawiązywać kontakty. Wyróżnia mnie wysoka kultura osobista oraz chęć do ciągłej nauki. Jako mój obecny cel zawodowy skupiam się na własnym rozwoju w zakresie umiejętności programistycznych oraz znajomości nowych technologii.`
+  },
   projects: {
     myPlants: {
       header: 'MyPlants',
-      text: `Aplikacja dla miłośników roślin. Projekt korzysta z REST API, które zostało utworzone w poprzednim projekcie. Ideą aplikacji jest stworzenie kolekcji jak największej ilości gatunków roślin, które można 
-      posiadać w domu wraz z opisem i wskazówkami, jak się nimi pielęgnować.\nUtworzono za pomocą: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, 
+      text: `Aplikacja dla miłośników roślin. Projekt korzysta z REST API, które zostało utworzone w poprzednim projekcie. Ideą aplikacji jest stworzenie kolekcji jak największej ilości gatunków roślin, które można posiadać w domu wraz z opisem i wskazówkami, jak się nimi pielęgnować.\nUtworzony za pomocą: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, 
       Scrum, Figma\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
     },
     starWars: {
@@ -61,11 +64,14 @@ export const PL = {
   
 export const EN = {
   language: "English",
+  resume: {
+    intro: `A year ago, I discovered my passion for creating web applications and since then I have been continuing my adventure with programming and learning new things with pleasure. I am a creative person with an open mind and not afraid of challenges. My interpersonal skills allow me to work perfectly in a group and
+    make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`
+  },
   projects: {
     myPlants: {
       header: 'MyPlants',
-      text: `Application for plant lovers. The project uses the REST API that was created during the previous project. The idea of it is to create a collection of many plant species which can be owned at home with its description and tips how to take care of them.\nCreated with: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma\nLink: 
-      *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
+      text: `Application for plant lovers. The project uses the REST API that was created during the previous project. The idea of it is to create a collection of many plant species which can be owned at home with its description and tips how to take care of them.\nCreated with: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
     },
     starWars: {
       header: 'Star Wars Quiz',

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { button } from './App.module.scss';
+import { leftNavi, button } from './App.module.scss';
 
 import Background from './components/Background/Background'
 import Navbar from './components/Navbar/Navbar'
+import ContactIcons from './components/ContactIcons/ContactIcons'
+
 import Home from './containers/Home/Home'
 import AboutMe from './containers/AboutMe/AboutMe'
 import Resume from './containers/Resume/Resume'
@@ -20,9 +22,12 @@ const App = () => {
   return (
     <>
       <LanguageContext.Provider value={languageState}>
-        <button className={button} onClick={changeLanguage}>
-          {languageState.state.language === 'English' ? 'PL' : 'ENG'}
-        </button>
+        <div className={leftNavi}>
+          <button className={button} onClick={changeLanguage}>
+            {languageState.state.language === 'English' ? 'PL' : 'ENG'}
+          </button>
+          <ContactIcons />
+        </div>
         <Background />
         <Navbar />
         {/* <Home /> */}

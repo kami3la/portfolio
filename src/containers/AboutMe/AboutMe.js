@@ -39,7 +39,7 @@ const AboutMe = () => {
           <Title text={value.state.about.about.header} size={30} bold='bold' />
           <div className={styles.introInfo}>
             <div alt='Me' className={styles.img}></div>
-            <div className={styles.box}>
+            <div>
               <Box
                 text={value.state.about.about.text}
               />
