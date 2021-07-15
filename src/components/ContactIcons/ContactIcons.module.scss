@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 
   img {
     background-color: #000;
   }
 
   @media (max-width: 1100px) {
+    gap: 0.7rem;
+
     img {
       width: 30px;
       height: 30px;
