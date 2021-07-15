@@ -1,8 +1,15 @@
 export const PL = {
   language: "Polski",
+  home: {
+    header: 'Witam, nazywam się Kamila Grusza.',
+    subheader: 'Jestem Front End Developerem.'
+  },
   resume: {
+    cv: 'https://docs.google.com/document/d/15a0UDd0XP1iLf0hDtOciGef7K63U5EZhSEbJaqljuto/edit?usp=sharing',
+    cvText: 'Kliknij tutaj, aby obejrzeć moje CV',
     intro: `Rok temu odkryłam swoją pasję do tworzenia aplikacji internetowych i od tego czasu z przyjemnością kontynuuję swoją przygodę z programowaniem i uczeniem się nowych rzeczy. Jestem osobą kreatywną, z otwartym umysłem i nie bojącą się wyzwań. Moje umiejętności interpersonalne pozwalają mi doskonale pracować w grupie i
-    sprawnie nawiązywać kontakty. Wyróżnia mnie wysoka kultura osobista oraz chęć do ciągłej nauki. Jako mój obecny cel zawodowy skupiam się na własnym rozwoju w zakresie umiejętności programistycznych oraz znajomości nowych technologii.`
+    sprawnie nawiązywać kontakty. Wyróżnia mnie wysoka kultura osobista oraz chęć do ciągłej nauki. Jako mój obecny cel zawodowy skupiam się na własnym rozwoju w zakresie umiejętności programistycznych oraz znajomości nowych technologii.`,
+    skills: 'Moje umiejętności'
   },
   projects: {
     myPlants: {
@@ -64,9 +71,16 @@ export const PL = {
   
 export const EN = {
   language: "English",
+  home: {
+    header: 'Hello, my name is Kamila Grusza',
+    subheader: 'I am Front End Developer'
+  },
   resume: {
+    cv: 'https://docs.google.com/document/d/15a0UDd0XP1iLf0hDtOciGef7K63U5EZhSEbJaqljuto/edit?usp=sharing',
+    cvText: 'Click here and check out my CV',
     intro: `A year ago, I discovered my passion for creating web applications and since then I have been continuing my adventure with programming and learning new things with pleasure. I am a creative person with an open mind and not afraid of challenges. My interpersonal skills allow me to work perfectly in a group and
-    make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`
+    make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`,
+    skills: 'My skills'
   },
   projects: {
     myPlants: {

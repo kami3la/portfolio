@@ -1,13 +1,16 @@
 import React from 'react';
-import { intro, introBox } from './Home.module.scss';
-import Title from '../../components/Title/Title';
+import { useContext } from 'react';
+import LanguageContext from '../../contexts/LanguageContext';
+import { intro, introBox, header, subheader } from './Home.module.scss';
 
 const Home = () => {
+  const value = useContext(LanguageContext);
+
   return (
     <div className={intro}>
       <div className={introBox}>
-        <Title text='Hello, my name is Kamila Grusza' size={50} bold='bold' />
-        <Title text='I am Front End Developer' size={30} bold='bold' />
+        <p className={header}>{value.state.home.header}</p>
+        <p className={subheader}>{value.state.home.subheader}</p>
       </div>
     </div>
   )

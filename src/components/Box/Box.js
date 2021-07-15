@@ -15,7 +15,7 @@ const Box = ({ title, text }) => {
     if (text.split('*')[1]) {
       const tab = text.split('*')
       const tab1 = tab[0].split('\n').map((item, i) => <p key={i}><br/>{item}</p>)
-      const tab2 =  <a href={tab[1]} rel='noreferrer' className={styles.link} target='_blank'>Click here !</a>
+      const tab2 =  <a href={tab[1]} rel='noreferrer' className={styles.link} target='_blank' key='*'>Click here !</a>
 
       return ( [tab1, tab2] )
     } else {
