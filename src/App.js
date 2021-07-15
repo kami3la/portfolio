@@ -30,7 +30,6 @@ const App = () => {
         </div>
         <Background />
         <Navbar />
-        {/* <Home /> */}
         <Switch>
           <Route path="/" exact>
             <Redirect to="/home" />
@@ -48,7 +47,6 @@ const App = () => {
             <AboutMe />
           </Route>
         </Switch>
-        {/* <Footer /> */}
       </LanguageContext.Provider>
     </>
   );

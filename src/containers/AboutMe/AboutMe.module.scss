@@ -135,53 +135,7 @@
     align-items: center;
     gap: 3rem;
   }
-  // padding: 2rem;
-
-  // &::before {
-  //   content: '';
-  //   position: absolute;
-  //   box-sizing: border-box;
-  //   width: 0;
-  //   height: 0;
-  //   border: 2px solid transparent;
-  //   top: 0;
-  //   left: 0;
-  //   border-top-color: #FFF;
-  //   border-right-color: #FFF;
-  //   animation: borderTop 2s infinite;
-  // }
 }
-
-// @keyframes borderTop {
-//   0% {
-//     width: 0;
-//     height: 0;
-//   }
-//   50% {
-//     width: 30%;
-//     height: 0;
-//   }
-//   100% {
-//     width: 60%;
-//     height: 0;
-//   }
-// }
-
-// .hobbySlider {
-//   width: 50%;
-//   display: grid;
-//   grid-template-columns: 1fr 10fr 1fr;
-//   align-items: center;
-//   column-gap: 1.5rem;
-
-//   img {
-//     cursor: pointer;
-//   }
-
-//   .darkArrow {
-//     cursor: default;
-//   }
-// }
 
 .travelsSlider {
   width: 100%;
@@ -254,6 +208,3 @@
 .backBox {
   transform: rotateY(180deg);
 }
-// .awssld {
-//   --content-background-color: none !important;
-// }
