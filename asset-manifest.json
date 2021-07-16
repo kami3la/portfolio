@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d7c87feb.chunk.css",
+    "main.css": "/portfolio/static/css/main.013274ca.chunk.css",
     "main.js": "/portfolio/static/js/main.481ace2d.chunk.js",
     "main.js.map": "/portfolio/static/js/main.481ace2d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
@@ -10,7 +10,7 @@
     "static/js/2.eb4bc363.chunk.js.map": "/portfolio/static/js/2.eb4bc363.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b2c32948.chunk.css.map": "/portfolio/static/css/2.b2c32948.chunk.css.map",
-    "static/css/main.d7c87feb.chunk.css.map": "/portfolio/static/css/main.d7c87feb.chunk.css.map",
+    "static/css/main.013274ca.chunk.css.map": "/portfolio/static/css/main.013274ca.chunk.css.map",
     "static/js/2.eb4bc363.chunk.js.LICENSE.txt": "/portfolio/static/js/2.eb4bc363.chunk.js.LICENSE.txt",
     "static/media/Background.module.scss": "/portfolio/static/media/stars.90c266f7.png",
     "static/media/francja.81c1ea46.jpg": "/portfolio/static/media/francja.81c1ea46.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.76232b81.js",
     "static/css/2.b2c32948.chunk.css",
     "static/js/2.eb4bc363.chunk.js",
-    "static/css/main.d7c87feb.chunk.css",
+    "static/css/main.013274ca.chunk.css",
     "static/js/main.481ace2d.chunk.js"
   ]
 }
