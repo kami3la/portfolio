@@ -10,19 +10,6 @@ import Menu from '../../assets/icons/menu.png';
 import { navbar, link, li, clicked, CHamburger, colourNav } from './Navbar.module.scss';
 import { OHamburger } from './Hamburger.module.scss';
 
-const createItem = (path, location, linkName, src, alt) => {
-  const classes = [link, location === path ? clicked : ''];
-
-  return (
-    <li key={path} className={li}>
-      <Link className={classes.join(' ')} to={path}>
-        <p>{linkName}</p>
-        <img src={src} alt={alt} height="35px" width="35px" />
-      </Link>
-    </li>
-  );
-}
-
 const Navbar = () => {
   const [ifOpen, setIfOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
@@ -36,6 +23,19 @@ const Navbar = () => {
     ['/about-me', location, 'About me', AboutMe, 'About me']
   ];
   const classes = `${width < 923 && ifOpen ? OHamburger : CHamburger} ${scrollY > 0 && width >= 923 ? colourNav : ''}`
+
+  const createItem = (path, location, linkName, src, alt) => {
+    const classes = [link, location === path ? clicked : ''];
+  
+    return (
+      <li key={path} className={li} onClick={() => setIfOpen(false)}>
+        <Link className={classes.join(' ')} to={path}>
+          <p>{linkName}</p>
+          <img src={src} alt={alt} height="35px" width="35px" />
+        </Link>
+      </li>
+    );
+  }
 
   const useOnClickOutside = (ref, handler) => {
     useEffect(() => {
