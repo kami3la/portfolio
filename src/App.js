@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { leftNavi, button } from './App.module.scss';
 
-import Background from './components/Background/Background'
-import Navbar from './components/Navbar/Navbar'
-import ContactIcons from './components/ContactIcons/ContactIcons'
+import Background from './components/Background'
+import Navbar from './components/Navbar'
+import ContactIcons from './components/ContactIcons'
+import ScrollToTop from './components/ScrollToTop'
 
-import Home from './containers/Home/Home'
-import AboutMe from './containers/AboutMe/AboutMe'
-import Resume from './containers/Resume/Resume'
-import Projects from './containers/Projects/Projects'
+import Home from './containers/Home'
+import AboutMe from './containers/AboutMe'
+import Resume from './containers/Resume'
+import Projects from './containers/Projects'
 
 import LanguageContext from './contexts/LanguageContext';
 import { EN, PL } from './contexts/language';
@@ -19,6 +20,7 @@ const App = () => {
 
   const changeLanguage = () => ( (languageState.state.language === 'English') ? setLanguageState({ state: PL }) : setLanguageState({ state: EN }));
   
+
   return (
     <>
       <LanguageContext.Provider value={languageState}>
@@ -28,6 +30,7 @@ const App = () => {
           </button>
           <ContactIcons />
         </div>
+        <ScrollToTop />
         <Background />
         <Navbar />
         <Switch>

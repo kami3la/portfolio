@@ -2,11 +2,10 @@
 .colourNav {
   width: 100%;
   padding: 0 1rem;
-  display: flex;
-  align-items: center;
   justify-content: flex-end;
   display: grid;
   grid-auto-flow: column;
+  align-items: center;
   column-gap: 3rem;
 
   @media (max-width: 1326px) {

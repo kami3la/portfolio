@@ -1,5 +1,6 @@
 import React from 'react';
 import { useContext } from 'react';
+
 import LanguageContext from '../../contexts/LanguageContext';
 import { intro, introBox, header, subheader } from './Home.module.scss';
 

@@ -2,11 +2,11 @@
 .skillsWrapper {
   min-height: 90vh;
   min-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  justify-items: center;
   gap: 7rem;
-  align-items: center;
   padding: 2rem 0;
   margin-bottom: 6rem;
 
@@ -69,14 +69,26 @@
     background: url('../../assets/illustrations/my-photo2.JPG');
     background-size: cover;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
   }
 
   .img:hover::after {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
   }
 
   .img:hover::before {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
   }
 
   @media (max-width: 1700px) {
@@ -97,9 +109,8 @@
   }
 
   @media (max-width: 922px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 3rem;
   }
 
@@ -129,7 +140,8 @@
   column-gap: 6rem;
   row-gap: 4rem;
 
-  > img {
+  .skill,
+  .reactStyle {
     width: fit-content;
     height: fit-content;
     transition: all .2s ease-in-out;
@@ -137,6 +149,11 @@
 
     &:hover{
       transform: scale(1.3);
+      transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -o-transform: scale(1.3);
+      -ms-transform: scale(1.3);
     }
 
     @media (max-width: 1380px) {

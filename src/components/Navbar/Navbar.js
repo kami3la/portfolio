@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+
 import Home from '../../assets/icons/home.png';
 import Resume from '../../assets/icons/resume.png';
 import Projects from '../../assets/icons/projects.png';
 import AboutMe from '../../assets/icons/me.png';
 import Menu from '../../assets/icons/menu.png';
+
 import { navbar, link, li, clicked, CHamburger, colourNav } from './Navbar.module.scss';
 import { OHamburger } from './Hamburger.module.scss';
 

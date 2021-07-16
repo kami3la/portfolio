@@ -6,9 +6,9 @@ import 'react-awesome-slider/src/styles.js';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import styles from './AboutMe.module.scss';
 
-import ScrollIcon from '../../components/ScrollIcon/ScrollIcon'
-import Title from '../../components/Title/Title';
-import Box from '../../components/Box/Box';
+import ScrollIcon from '../../components/ScrollIcon'
+import Title from '../../components/Title';
+import Box from '../../components/Box';
 
 import France from '../../assets/illustrations/francja.jpg';
 import Granada from '../../assets/illustrations/granada.jpg';

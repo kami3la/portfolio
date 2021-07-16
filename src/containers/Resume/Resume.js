@@ -1,11 +1,11 @@
 import React from 'react';
 import { useContext } from 'react';
 import LanguageContext from '../../contexts/LanguageContext';
-import { infoWrapper, info, img, skillsWrapper, skills, reactStyle } from './Resume.module.scss';
+import { infoWrapper, info, img, skillsWrapper, skills, skill, reactStyle } from './Resume.module.scss';
 
-import ScrollIcon from '../../components/ScrollIcon/ScrollIcon'
-import Box from '../../components/Box/Box';
-import Title from '../../components/Title/Title';
+import ScrollIcon from '../../components/ScrollIcon'
+import Box from '../../components/Box';
+import Title from '../../components/Title';
 
 import html from '../../assets/icons/html.png';
 import js from '../../assets/icons/js.png';
@@ -42,20 +42,22 @@ const Resume = () => {
       <div className={skillsWrapper}>
         <Title text={value.state.resume.skills} size={30} bold='bold' />
         <div className={skills}>
-          <img src={html} alt='html' />
-          <img src={js} alt='js' />
-          <img src={ts} alt='ts' />
-          <img src={css} alt='css' />
-          <img src={sass} alt='sass' />
-          <img src={react} alt='react' className={reactStyle} />
-          <img src={node} alt='node' />
-          <img src={sql} alt='sql' />
-          <img src={python} alt='python' />
-          <img src={github} alt='github' />
-          <img src={jest} alt='jest' />
-          <img src={mongo} alt='mongo' />
-          <img src={figma} alt='figma' />
-          <img src={trello} alt='trello' />
+          <img src={html} alt='html' className={skill} />
+          <img src={js} alt='js' className={skill} />
+          <img src={ts} alt='ts' className={skill} />
+          <img src={css} alt='css' className={skill} />
+          <img src={sass} alt='sass' className={skill} />
+          <div className={skill}>
+            <img src={react} alt='react' className={reactStyle} />
+          </div>
+          <img src={node} alt='node' className={skill} />
+          <img src={sql} alt='sql' className={skill} />
+          <img src={python} alt='python' className={skill} />
+          <img src={github} alt='github' className={skill} />
+          <img src={jest} alt='jest' className={skill} />
+          <img src={mongo} alt='mongo' className={skill} />
+          <img src={figma} alt='figma' className={skill} />
+          <img src={trello} alt='trello' className={skill} />
         </div>
       </div>
     </div>

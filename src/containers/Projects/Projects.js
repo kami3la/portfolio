@@ -3,9 +3,9 @@ import { useContext } from 'react';
 import LanguageContext from '../../contexts/LanguageContext';
 import { projects, flipCard, front, back, cardContent } from './Projects.module.scss';
 
-import Title from '../../components/Title/Title';
-import Box from '../../components/Box/Box';
-import ScrollIcon from '../../components/ScrollIcon/ScrollIcon'
+import Title from '../../components/Title';
+import Box from '../../components/Box';
+import ScrollIcon from '../../components/ScrollIcon'
 
 import myPlants from '../../assets/illustrations/myPlants.jpg';
 import starWars from '../../assets/illustrations/starWars.PNG';
