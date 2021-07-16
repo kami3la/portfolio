@@ -105,7 +105,7 @@ export const EN = {
       coffee, being surrounded by animals, solving puzzles and just being out in nature.`
     },
     hobby: {
-      header: 'My hobby',
+      header: 'My hobbies',
       games: {
         title: 'Games - volleyball',
         text: `I love all kinds of games, especially logic and team games. In my free time, I am happy to solve crosswords and nonograms, play computer games and board games, and go to escape rooms. 
