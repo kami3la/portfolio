@@ -70,7 +70,7 @@ export const EN = {
   language: "English",
   home: {
     header: 'Hello, my name is Kamila Grusza',
-    subheader: 'I am Front End Developer'
+    subheader: 'I am a Front End Developer'
   },
   resume: {
     cv: 'https://docs.google.com/document/d/15a0UDd0XP1iLf0hDtOciGef7K63U5EZhSEbJaqljuto/edit?usp=sharing',
