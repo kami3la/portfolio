@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useContext, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import LanguageContext from '../../contexts/LanguageContext';
 
 import Home from '../../assets/icons/home.png';
 import Resume from '../../assets/icons/resume.png';
@@ -14,14 +15,24 @@ const Navbar = () => {
   const [ifOpen, setIfOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
   const [scrollY, setScrollY] = useState(0);
+  const value = useContext(LanguageContext);
   const location = useLocation().pathname;
   const node = useRef();
+
+  const names = (eng, pl) => {
+    if (value.state.language === 'English') {
+      return eng
+    }
+    return pl
+  }
+
   const items =  [
-    ['/home', location, 'Home', Home, 'Home'],
-    ['/resume', location, 'Resume', Resume, 'Resume'],
-    ['/projects', location, 'Projects', Projects, 'Projects'],
-    ['/about-me', location, 'About me', AboutMe, 'About me']
+    ['/home', location, names('Home', 'Strona główna'), Home, 'Home'],
+    ['/resume', location, names('Resume', 'Życiorys'), Resume, 'Resume'],
+    ['/projects', location, names('Projects', 'Projekty'), Projects, 'Projects'],
+    ['/about-me', location, names('About me', 'O mnie'), AboutMe, 'About me']
   ];
+
   const classes = `${width < 923 && ifOpen ? OHamburger : CHamburger} ${scrollY > 0 && width >= 923 ? colourNav : ''}`
 
   const createItem = (path, location, linkName, src, alt) => {

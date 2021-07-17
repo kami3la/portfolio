@@ -61,8 +61,7 @@
   }
 }
 
-.intro,
-.hobby {
+.intro {
   width: 60%;
 
   @media (max-width: 1700px) {
@@ -85,24 +84,9 @@
   @media (max-width: 922px) {
     padding-top: 5rem;
   }
-}
 
-.hobby {
-
-  @media (max-width: 1060px) {
-    width: 50%;
-  }
-
-  @media (max-width: 922px) {
-    width: 60%;
-  }
-
-  @media (max-width: 780px) {
-    width: 70%;
-  }
-
-  @media (max-width: 650px) {
-    width: 85%;
+  @media (max-width: 300px) {
+    width: 95%;
   }
 }
 
@@ -150,6 +134,30 @@
   width: 100%;
 }
 
+.hobby {
+  width: 70%;
+
+  @media (max-width: 1350px) {
+    width: 90%;
+  }
+
+  @media (max-width: 1060px) {
+    width: 60%;
+  }
+
+  @media (max-width: 790px) {
+    width: 75%;
+  }
+
+  @media (max-width: 600px) {
+    width: 90%;
+  }
+
+  @media (max-width: 400px) {
+    width: 95%;
+  }
+}
+
 .hobbyBoxes {
   width: 100%;
   height: 100%;
@@ -158,7 +166,7 @@
   row-gap: 4rem;
   column-gap: 4rem;
 
-  @media (max-width: 1060px) {
+  @media (max-width: 1040px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -169,20 +177,12 @@
   height: 400px;
   perspective: 600px;
 
-  @media (max-width: 1550px) {
-    height: 465px;
+  @media (max-width: 475px) {
+    height: 300px;
   }
 
-  @media (max-width: 1060px) {
-    height: 420px;
-  }
-
-  @media (max-width: 650px) {
-    height: 280px;
-  }
-  
-  @media (max-width: 370px) {
-    height: 200px;
+  @media (max-width: 350px) {
+    height: 275px;
   }
 }
 
@@ -194,11 +194,9 @@
   transform-style: preserve-3d;
 }
 
-.frontBox {
-  background: rgba(191, 79, 97, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.frontBox img {
+  width: 100%;
+  height: 100%;
 }
 
 .hobbyBox:hover .hobbyBoxContent {

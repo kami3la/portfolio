@@ -1,5 +1,4 @@
-import React from 'react';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import LanguageContext from '../../contexts/LanguageContext';
 import { infoWrapper, info, img, skillsWrapper, skills, skill, reactStyle } from './Resume.module.scss';
 
