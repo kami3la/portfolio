@@ -5,6 +5,10 @@ This is my personal portfolio created with React.
 You can find it [here](https://kami3la.github.io/portfolio/).
 
 
+## Preview
+
+<img src="https://res.cloudinary.com/dyj4k9tr0/image/upload/v1626728597/preview_xkxd5x.png" />
+
 ## Technologies & Tools
 - ReactJS
 - SCSS
