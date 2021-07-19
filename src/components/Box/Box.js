@@ -29,7 +29,7 @@ const Box = ({ title, text }) => {
   return (
     <div className={styles.box}>
       {ifTitle()}
-      <div className={styles.textStyle}>{checkString()}</div>
+      <div>{checkString()}</div>
     </div>
   );
 }
