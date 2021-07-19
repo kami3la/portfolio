@@ -38,19 +38,16 @@ export const PL = {
       games: {
         title: 'Gry - siatkówka',
         text: `Uwielbiam wszelkiego rodzaju gry, zwłaszcza te logiczne lub zespołowe. Dlatego w wolnym czasie chętnie rozwiązuję krzyżówki i nonogramy, gram w gry komputerowe i planszowe oraz chodzę do escape roomów.
-        Natomiast moim ulubionym sportem jest siatkówka. Kiedy byłam młodsza, trenowałam ją przez 6 lat, a zaczęłam w szkole podstawowej. Zawsze dobrze się przy tym bawiłam i nadal lubię grać 
-        z moimi przyjaciółmi, gdy tylko nadarzy się okazja. Dlatego za każdym razem, gdy wybieramy się nad jezioro, na kemping lub nad morze, zawsze zabieramy ze sobą piłkę do siatkówki.`
+        Natomiast moim ulubionym sportem jest siatkówka, którą trenowałam przez 6 lat. Zawsze dobrze się przy tym bawiłam i nadal lubię grać z moimi przyjaciółmi, gdy tylko nadarzy się okazja. Dlatego za każdym razem, gdy wybieramy się nad jezioro, na kemping lub nad morze, zawsze zabieramy ze sobą piłkę do siatkówki.`
       },
       plants: {
         title: 'Rośliny doniczkowe',
         text: `Rośliny doniczkowe to moja kolejna pasja. Uważam, że kolorowe donice z zadbanymi roślinami są niezbędnym elementem mojego domu. Ogromną radość sprawia mi, gdy moja roślinka wypuszcza nowy liść,
-        kwiat lub nowe dziecko. Wszystko zaczęło się od zakupu jednej rośliny i zanim się zorientowałem, na moich półkach znajdowała się cała kolekcja roślin. Rośliny doniczkowe mają niesamowicie wiele zalet i jak 
-        na razie dałam radę znaleźć jedynie jedną ich wadę. Mianowicie jedynym minusem posiadania roślin doniczkowych jest dla mnie problem z opieką nad nimi podczas wyjazdów.`
+        kwiat lub nowe dziecko. Wszystko zaczęło się od zakupu jednej rośliny i zanim się zorientowałem, na moich półkach znajdowała się cała kolekcja roślin. W tym momencie nie wyobrażam sobie, aby mój parapet nie był przyozdobiony roślinkami.`
       },
       traveling: {
         title: 'Podróżowanie',
-        text: `Bardzo ważne jest dla mnie podróżowanie zarówno po Polsce, jak i do innych krajów. Dlatego zawsze staram się odwiedzać nowe miejsca i odkrywać obce kultury. Po każdej podróży jestem
-        bogatsza o nową wiedzę i doświadczenia, które bardzo sobie cenię. Moim ulubionym rodzajem podróży jest odwiedzanie jak największej liczby miejsc i robienie jak największej ilości rzeczy, więc zwykle nie 
+        text: `Bardzo ważne jest dla mnie podróżowanie zarówno po Polsce, jak i do innych krajów. Dlatego zawsze staram się odwiedzać nowe miejsca i odkrywać obce kultury. Moim ulubionym rodzajem podróży jest odwiedzanie jak największej liczby miejsc i robienie jak największej ilości rzeczy, więc zwykle nie 
         ograniczam się tylko do jednego celu podróży. Właśnie dlatego kiedyś pojechałam do Hiszpanii autostopem. Jest to najszybszy sposób na poznanie wielu nowych miejsc, a także ludzi i ich historii.`
       },
       billards: {
@@ -107,19 +104,16 @@ export const EN = {
       games: {
         title: 'Games - volleyball',
         text: `I love all kinds of games, especially logical or team games. That is why in my spare time I like to solve crosswords and nonograms, play computer and board games and go to escape rooms. But my 
-        favorite sport is volleyball. When I was younger I trained it for 6 years and started in elementary school. I've always had a lot of fun doing it and still enjoy playing 
-        with my friends whenever the opportunity arises. That's why every time we go to the lake, camping or to the seaside, we always take a volleyball ball with us.`
+        favorite sport is volleyball, which I trained for 6 years. I've always had a lot of fun doing it and still enjoy playing with my friends whenever the opportunity arises. That's why every time we go to the lake, camping or to the seaside, we always take a volleyball ball with us.`
       },
       plants: {
         title: 'Houseplants',
         text: `Potted plants are my next passion. I believe that colorful pots with well-kept plants are an indispensable element of my home. It always gives me great joy when my plant produces a new leaf, 
-        flower or new baby. It all started with buying one plant, and before I knew it, there was a whole collection of plants on my shelves. Potted plants have many advantages and so far I have found only 
-        one disadvantage. Namely, the only downside of having potted plants for me is the problem with taking care of them during trips.`
+        flower or new baby. It all started with buying one plant, and before I knew it, there was a whole collection of plants on my shelves. At this point, I cannot imagine my window sill not being decorated with plants.`
       },
       traveling: {
         title: 'Traveling',
-        text: `It is very important for me to travel both in Poland and to other countries. That is why I always try to visit new places and discover foreign cultures. After each journey, I am richer with new 
-        knowledge and experiences that I appreciate very much. My favorite type of trip is to visit and do as many things as possible, so I usually don't limit myself to just one destination. That's why I hitchhiked 
+        text: `It is very important for me to travel both in Poland and to other countries. That is why I always try to visit new places and discover foreign cultures. My favorite type of trip is to visit and do as many things as possible, so I usually don't limit myself to just one destination. That's why I hitchhiked 
         to Spain once. It is the fastest way to meet many new places, as well as people and their stories.`
       },
       billards: {
