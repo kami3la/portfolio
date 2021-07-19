@@ -22,7 +22,7 @@ const Projects = () => {
             <div className={front}><img src={myPlants} alt="project MyPlants" /></div>
             <div className={back}>
               <Box
-                title={<Title text={value.state.projects.myPlants.header} size={19} bold='bold' />}
+                title={<Title text={value.state.projects.myPlants.header} size={20} bold='bold' />}
                 text={value.state.projects.myPlants.text}
               />
             </div>
@@ -33,7 +33,7 @@ const Projects = () => {
             <div className={front}><img src={starWars} alt="project Star Wars Quiz" /></div>
             <div className={back}>
               <Box
-                title={<Title text={value.state.projects.starWars.header} size={19} bold='bold' />}
+                title={<Title text={value.state.projects.starWars.header} size={20} bold='bold' />}
                 text={value.state.projects.starWars.text}
               />
             </div>
@@ -44,7 +44,7 @@ const Projects = () => {
             <div className={front}><img src={yahtzeeGame} alt="Yahtzee Game" /></div>
             <div className={back}>
               <Box
-                title={<Title text={value.state.projects.yahtzee.header} size={19} bold='bold' />}
+                title={<Title text={value.state.projects.yahtzee.header} size={20} bold='bold' />}
                 text={value.state.projects.yahtzee.text}
               />
             </div>

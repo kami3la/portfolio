@@ -17,10 +17,13 @@ const Box = ({ title, text }) => {
   const checkString = () => {
     if (text.split('*')[1]) {
       const tab = text.split('*')
-      const tab1 = tab[0].split('\n').map((item, i) => <p key={i}><br/>{item}</p>)
-      const tab2 =  <a href={tab[1]} rel='noreferrer' className={styles.link} target='_blank' key='*'>{value.state.projects.link}</a>
+      const newTab = tab[0].split('\n')
+      newTab.splice(newTab.length-1, 1)
+      const tab1 = newTab.map((item, i) => <p key={i}>{item}<br/><br/></p>)
+      const tab2 = tab[0].split('\n').pop()
+      const tab3 =  <a href={tab[1]} rel='noreferrer' className={styles.link} target='_blank' key='*'>{value.state.projects.link}</a>
 
-      return ( [tab1, tab2] )
+      return ( [tab1, tab2, tab3] )
     } else {
       return text;
     }
