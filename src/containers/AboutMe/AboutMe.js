@@ -22,6 +22,8 @@ import Nl from '../../assets/illustrations/holandia.jpg';
 import Park from '../../assets/illustrations/park.JPG';
 import Poland2 from '../../assets/illustrations/polska2.JPG';
 import Tulips from '../../assets/illustrations/tulips.JPG';
+import Czechy from '../../assets/illustrations/czechy.jpg';
+import Italy from '../../assets/illustrations/wlochy.JPG';
 
 const slider = (
   <AwesomeSlider animation="cubeAnimation">
@@ -34,6 +36,8 @@ const slider = (
     <div data-src={Park} />
     <div data-src={Poland2} />
     <div data-src={Tulips} />
+    <div data-src={Czechy} />
+    <div data-src={Italy} />
   </AwesomeSlider>
 );
 

@@ -5,7 +5,7 @@ export const PL = {
     subheader: 'Jestem Front End Developerem.'
   },
   resume: {
-    cv: 'https://docs.google.com/document/d/15a0UDd0XP1iLf0hDtOciGef7K63U5EZhSEbJaqljuto/edit?usp=sharing',
+    cv: 'https://drive.google.com/file/d/1HHu-MXZapi1ofv0a5WHJq7BDnssoMdI1/view?usp=sharing',
     cvText: 'Kliknij tutaj, aby obejrzeć moje CV',
     intro: `Rok temu odkryłam swoją pasję do tworzenia aplikacji internetowych i od tego czasu z przyjemnością kontynuuję swoją przygodę z programowaniem i uczeniem się nowych rzeczy. Jestem osobą kreatywną, z otwartym umysłem i nie bojącą się wyzwań. Moje umiejętności interpersonalne pozwalają mi doskonale pracować w grupie i
     sprawnie nawiązywać kontakty. Wyróżnia mnie wysoka kultura osobista oraz chęć do ciągłej nauki. Jako mój obecny cel zawodowy skupiam się na własnym rozwoju w zakresie umiejętności programistycznych oraz znajomości nowych technologii.`,
@@ -14,15 +14,19 @@ export const PL = {
   projects: {
     myPlants: {
       header: 'MyPlants',
-      text: `Aplikacja dla miłośników roślin. Projekt korzysta z wcześniej utworzonego REST API.\nUtworzony za pomocą: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
+      text: `Aplikacja dla miłośników roślin. Projekt korzysta z wcześniej utworzonego REST API.\nUtworzony za pomocą: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma.\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
     },
     starWars: {
       header: 'Star Wars Quiz',
-      text: `Ten projekt to quiz sprawdzający wiedzę z uniwersum Gwiezdnych Wojen.\nUtworzony za pomocą: HTML, SCSS, JavaScript, Star Wars API, Jest, Trello, Scrum, Figma, metodologia BEM\nLink: *https://github.com/ruljin/CodersCamp2020.Project.JavaScript.StarWarsQuiz`
+      text: `Ten projekt to quiz sprawdzający wiedzę z uniwersum Gwiezdnych Wojen.\nUtworzony za pomocą: HTML, SCSS, JavaScript, Star Wars API, Jest, Trello, Scrum, Figma, metodologia BEM.\nLink: *https://github.com/ruljin/CodersCamp2020.Project.JavaScript.StarWarsQuiz`
     },
     yahtzee: {
       header: 'Yahtzee Game',
-      text: `Ten projekt to aplikacja do gry w kości o nazwie Yahtzee.\nUtworzony za pomocą: HTML, SCSS, TypeScript, Webpack, Jest, ESLint, StyleLint, HTML-validate, Jira, Scrum, Figma, metodologia BEM\nLink: *https://github.com/ruljin/CodersCamp2020.Project.TypeScript.YahtzeeGame`
+      text: `Ten projekt to aplikacja do gry w kości o nazwie Yahtzee.\nUtworzony za pomocą: HTML, SCSS, TypeScript, Webpack, Jest, ESLint, StyleLint, HTML-validate, Jira, Scrum, Figma, metodologia BEM.\nLink: *https://github.com/ruljin/CodersCamp2020.Project.TypeScript.YahtzeeGame`
+    },
+    js30: {
+      header: 'JavaScript 30',
+      text: `Ten projekt został stworzony w ramach "30 Day Vanilla JS Coding Challenge", którego autorem jest WesBos.\nUtworzony za pomocą: HTML, CSS, JavaScript.\nLink: *https://github.com/kami3la/JavaScript30`
     },
     link: 'Kliknij tutaj !'
   },
@@ -70,7 +74,7 @@ export const EN = {
     subheader: 'I am a Front End Developer'
   },
   resume: {
-    cv: 'https://docs.google.com/document/d/15a0UDd0XP1iLf0hDtOciGef7K63U5EZhSEbJaqljuto/edit?usp=sharing',
+    cv: 'https://drive.google.com/file/d/1RO5ZrIdS6SM0eFIY0Vx1asUi3BWEIJRb/view?usp=sharing',
     cvText: 'Click here and check out my CV',
     intro: `A year ago, I discovered my passion for creating web applications and since then I have been continuing my adventure with programming and learning new things with pleasure. I am a creative person with an open mind and not afraid of challenges. My interpersonal skills allow me to work perfectly in a group and
     make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`,
@@ -79,15 +83,19 @@ export const EN = {
   projects: {
     myPlants: {
       header: 'MyPlants',
-      text: `Application for plant lovers. The project uses the previously created REST API.\nCreated with: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
+      text: `Application for plant lovers. The project uses the previously created REST API.\nCreated with: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma.\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
     },
     starWars: {
       header: 'Star Wars Quiz',
-      text: `This project is a quiz that tests the knowledge of the Star Wars universe.\nCreated with: HTML, SCSS, JavaScript, Star Wars API, Jest, Trello, Scrum, Figma, BEM methodology\nLink: *https://github.com/ruljin/CodersCamp2020.Project.JavaScript.StarWarsQuiz`
+      text: `This project is a quiz that tests the knowledge of the Star Wars universe.\nCreated with: HTML, SCSS, JavaScript, Star Wars API, Jest, Trello, Scrum, Figma, BEM methodology.\nLink: *https://github.com/ruljin/CodersCamp2020.Project.JavaScript.StarWarsQuiz`
     },
     yahtzee: {
       header: 'Yahtzee Game',
-      text: `This project is an application to play dice game called Yahtzee.\nCreated with: HTML, SCSS, TypeScript, Webpack, Jest, ESLint, StyleLint, HTML-validate, Jira, Scrum, Figma, BEM methodology\nLink: *https://github.com/ruljin/CodersCamp2020.Project.TypeScript.YahtzeeGame`
+      text: `This project is an application to play dice game called Yahtzee.\nCreated with: HTML, SCSS, TypeScript, Webpack, Jest, ESLint, StyleLint, HTML-validate, Jira, Scrum, Figma, BEM methodology.\nLink: *https://github.com/ruljin/CodersCamp2020.Project.TypeScript.YahtzeeGame`
+    },
+    js30: {
+      header: 'JavaScript 30',
+      text: `This project was created as part of "30 Day Vanilla JS Coding Challenge" authored by WesBos.\nCreated with: HTML, CSS, JavaScript.\nLink: *https://github.com/kami3la/JavaScript30`
     },
     link: 'Click here !'
   },

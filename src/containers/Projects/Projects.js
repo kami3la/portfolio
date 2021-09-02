@@ -9,6 +9,7 @@ import ScrollIcon from '../../components/ScrollIcon'
 import myPlants from '../../assets/illustrations/myPlants.jpg';
 import starWars from '../../assets/illustrations/starWars.PNG';
 import yahtzeeGame from '../../assets/illustrations/yahtzeeGame.jpg';
+import js30 from '../../assets/illustrations/js30.PNG';
 
 const Projects = () => {
   const value = useContext(LanguageContext);
@@ -46,6 +47,17 @@ const Projects = () => {
               <Box
                 title={<Title text={value.state.projects.yahtzee.header} size={20} bold='bold' />}
                 text={value.state.projects.yahtzee.text}
+              />
+            </div>
+          </div>
+        </div>
+        <div className={flipCard}>
+          <div className={cardContent}>
+            <div className={front}><img src={js30} alt="JavaScript 30" /></div>
+            <div className={back}>
+              <Box
+                title={<Title text={value.state.projects.js30.header} size={20} bold='bold' />}
+                text={value.state.projects.js30.text}
               />
             </div>
           </div>
