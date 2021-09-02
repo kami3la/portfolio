@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.89adb3d5.chunk.css",
-    "main.js": "/portfolio/static/js/main.48493716.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.48493716.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a32037aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a32037aa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
     "static/css/2.b2c32948.chunk.css": "/portfolio/static/css/2.b2c32948.chunk.css",
@@ -14,10 +14,12 @@
     "static/js/2.ed2a0617.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ed2a0617.chunk.js.LICENSE.txt",
     "static/media/billards.0273d599.jpg": "/portfolio/static/media/billards.0273d599.jpg",
     "static/media/Background.module.scss": "/portfolio/static/media/stars.90c266f7.png",
+    "static/media/czechy.586a0d13.jpg": "/portfolio/static/media/czechy.586a0d13.jpg",
     "static/media/francja.81c1ea46.jpg": "/portfolio/static/media/francja.81c1ea46.jpg",
     "static/media/game.102c5a6c.jpg": "/portfolio/static/media/game.102c5a6c.jpg",
     "static/media/granada.f4fc4e4f.jpg": "/portfolio/static/media/granada.f4fc4e4f.jpg",
     "static/media/holandia.2636edb0.jpg": "/portfolio/static/media/holandia.2636edb0.jpg",
+    "static/media/js30.15409969.PNG": "/portfolio/static/media/js30.15409969.PNG",
     "static/media/malta.380301fc.jpg": "/portfolio/static/media/malta.380301fc.jpg",
     "static/media/AboutMe.module.scss": "/portfolio/static/media/me2.3023b8d9.jpg",
     "static/media/Resume.module.scss": "/portfolio/static/media/my-photo2.3c77f9a4.JPG",
@@ -30,6 +32,7 @@
     "static/media/starWars.55fc62bd.PNG": "/portfolio/static/media/starWars.55fc62bd.PNG",
     "static/media/travels.18e33c13.png": "/portfolio/static/media/travels.18e33c13.png",
     "static/media/tulips.6ba1cf94.JPG": "/portfolio/static/media/tulips.6ba1cf94.JPG",
+    "static/media/wlochy.aa69e763.JPG": "/portfolio/static/media/wlochy.aa69e763.JPG",
     "static/media/yahtzeeGame.f9613a76.jpg": "/portfolio/static/media/yahtzeeGame.f9613a76.jpg"
   },
   "entrypoints": [
@@ -37,6 +40,6 @@
     "static/css/2.b2c32948.chunk.css",
     "static/js/2.ed2a0617.chunk.js",
     "static/css/main.89adb3d5.chunk.css",
-    "static/js/main.48493716.chunk.js"
+    "static/js/main.a32037aa.chunk.js"
   ]
 }
