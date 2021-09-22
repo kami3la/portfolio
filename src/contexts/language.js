@@ -5,7 +5,7 @@ export const PL = {
     subheader: 'Jestem Front End Developerem.'
   },
   resume: {
-    cv: 'https://drive.google.com/file/d/12Z2HMSXzoUVkRo3Zwff-I6vlgPABYNYr/view?usp=sharing',
+    cv: 'https://drive.google.com/file/d/1iw_4F0owoVYD2ouUElEMN-0fZW9ruTlN/view?usp=sharing',
     cvText: 'Kliknij tutaj, aby obejrzeć moje CV',
     intro: `Rok temu odkryłam swoją pasję do tworzenia aplikacji internetowych i od tego czasu z przyjemnością kontynuuję swoją przygodę z programowaniem i uczeniem się nowych rzeczy. Jestem osobą kreatywną, z otwartym umysłem i nie bojącą się wyzwań. Moje umiejętności interpersonalne pozwalają mi doskonale pracować w grupie i
     sprawnie nawiązywać kontakty. Wyróżnia mnie wysoka kultura osobista oraz chęć do ciągłej nauki. Jako mój obecny cel zawodowy skupiam się na własnym rozwoju w zakresie umiejętności programistycznych oraz znajomości nowych technologii.`,
@@ -74,7 +74,7 @@ export const EN = {
     subheader: 'I am a Front End Developer'
   },
   resume: {
-    cv: 'https://drive.google.com/file/d/13gxPdlCDu77r6VwbMGCNH3kA-LXf-W3B/view?usp=sharing',
+    cv: 'https://drive.google.com/file/d/1UA-iG0us21wlM2zkVrcHWhn4Vieo6Qy_/view?usp=sharing',
     cvText: 'Click here and check out my CV',
     intro: `A year ago, I discovered my passion for creating web applications and since then I have been continuing my adventure with programming and learning new things with pleasure. I am a creative person with an open mind and not afraid of challenges. My interpersonal skills allow me to work perfectly in a group and
     make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`,
