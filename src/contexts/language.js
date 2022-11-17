@@ -12,6 +12,10 @@ export const PL = {
     skills: 'Moje umiejętności'
   },
   projects: {
+    matmopoly: {
+      header: 'Matmopoly',
+      text: `Projekt powstał w celu zwiększenia biegłości w liczeniu tabliczki mnożenia wśród dzieci z klas 4-8, ponieważ zauważono ewidentne braki tej umiejętności. Ta aplikacja była również okazją do nauki Vue.js.\nUtworzono za pomocą: VueJS.\nLink: *https://github.com/kami3la/Monopoly`
+    },
     myPlants: {
       header: 'MyPlants',
       text: `Aplikacja dla miłośników roślin. Projekt korzysta z wcześniej utworzonego REST API.\nUtworzony za pomocą: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma.\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
@@ -33,7 +37,7 @@ export const PL = {
   about: {
     about: {
       header: 'Kilka słów o tym kim jestem',
-      text: `Mam 23 lata, mieszkam i studiuję w Poznaniu. Miałam zostać nauczycielem matematyki i informatyki, ale podczas moich studiów zetknęłam się z programowaniem, które bardzo mnie zainteresowało. Wtedy 
+      text: `Mam 24 lata i mieszkam w Poznaniu. Miałam zostać nauczycielem matematyki i informatyki, ale podczas moich studiów zetknęłam się z programowaniem, które bardzo mnie zainteresowało. Wtedy 
       postanowiłam rozpocząć naukę programowania webowego, a moja pasja i miłość do kodowania tylko rosły. Programowanie mnie uszczęśliwa, daje mi wyzwania, które tak bardzo lubię, a także zaspokaja moją chęć do 
       ciągłej nauki. Poza programowaniem uwielbiam również podróżować, poznawać nowych ludzi, pić dobrą kawę, przebywać w otoczeniu zwierząt, rozwiązywać zagadki i po prostu przebywać na łonie natury.`
     },
@@ -74,13 +78,18 @@ export const EN = {
     subheader: 'I am a Front End Developer'
   },
   resume: {
-    cv: 'https://drive.google.com/file/d/1UA-iG0us21wlM2zkVrcHWhn4Vieo6Qy_/view?usp=sharing',
+    cv: 'https://drive.google.com/file/d/1i6GU9hhjjpWukk_Dm1BVO6ICjP2PqbzP/view?usp=sharing',
     cvText: 'Click here and check out my CV',
-    intro: `A year ago, I discovered my passion for creating web applications and since then I have been continuing my adventure with programming and learning new things with pleasure. I am a creative person with an open mind and not afraid of challenges. My interpersonal skills allow me to work perfectly in a group and
-    make contacts efficiently. I am distinguished by high personal culture and willingness to constantly learn. As my current professional goal, I focus on my own development in the field of programming skills and knowledge of new technologies.`,
+    intro: `Web developer with 1+ years of Front-End experience and passion for responsive webside design. Constantly seeking for new challenges that will
+    expand my skill set. Working effectively both in a team and individually. As my current professional goal, I set myself, above all, further development, gaining
+    experience and new skills. I am looking for an opportunity to live and grow in a foreign environment.`,
     skills: 'My skills'
   },
   projects: {
+    matmopoly: {
+      header: 'Matmopoly',
+      text: `The project was created to increase the proficiency in calculating the multiplication table among children in grades 4-8, as evident deficiencies of this skill were noticed. This application was also an opportunity to learn Vue.js.\nCreated with: VueJS.\nLink: *https://github.com/kami3la/Monopoly`
+    },
     myPlants: {
       header: 'MyPlants',
       text: `Application for plant lovers. The project uses the previously created REST API.\nCreated with: ReactJS, SCSS, NodeJS, Express.js, MongoDB, Mongoose, TypeScript, Heroku, Lucidchart, ESLint, StyleLint, Jest, Jira, Scrum, Figma.\nLink: *https://github.com/LittleCodersCrew/CodersCamp2020.Project.React.MyPlants`
@@ -102,8 +111,8 @@ export const EN = {
   about: {
     about: {
       header: 'A few words about who I am',
-      text: `I am 23 years old and I live and study in Poznań, Poland. I was supposed to become a mathematics and computer science teacher, but during my 
-      studies I encountered programming which made me extremely interested. Then I decided to start learning web programming and my passion and love for coding only grew. Programming makes me 
+      text: `I am 24 years old and I live in Poznań, Poland. I was supposed to become a mathematics and computer science teacher, but during my 
+      studies I encountered programming and I got extremely interested in it. Then I decided to start learning web programming and my passion and love for coding only grew. Programming makes me 
       happy, it gives me challenges that I like so much, and it satisfies my desire for continuous learning. Apart from programming, I also love traveling, meeting new people, drinking good 
       coffee, being surrounded by animals, solving puzzles and just being out in nature.`
     },

@@ -6,6 +6,7 @@ import Title from '../../components/Title';
 import Box from '../../components/Box';
 import ScrollIcon from '../../components/ScrollIcon'
 
+import matmopoly from '../../assets/illustrations/matmopoly.JPG';
 import myPlants from '../../assets/illustrations/myPlants.jpg';
 import starWars from '../../assets/illustrations/starWars.PNG';
 import yahtzeeGame from '../../assets/illustrations/yahtzeeGame.jpg';
@@ -18,6 +19,17 @@ const Projects = () => {
     <div>
       <ScrollIcon />
       <div className={projects}>
+        <div className={flipCard}>
+          <div className={cardContent}>
+            <div className={front}><img src={matmopoly} alt="project Matmopoly" /></div>
+            <div className={back}>
+              <Box
+                title={<Title text={value.state.projects.matmopoly.header} size={20} bold='bold' />}
+                text={value.state.projects.matmopoly.text}
+              />
+            </div>
+          </div>
+        </div>
         <div className={flipCard}>
           <div className={cardContent}>
             <div className={front}><img src={myPlants} alt="project MyPlants" /></div>

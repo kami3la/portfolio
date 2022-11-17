@@ -11,7 +11,9 @@ import js from '../../assets/icons/js.png';
 import ts from '../../assets/icons/ts.png';
 import css from '../../assets/icons/css.png';
 import sass from '../../assets/icons/sass.png';
+import bootstrap from '../../assets/icons/bootstrap.png';
 import react from '../../assets/icons/react.png';
+import vue from '../../assets/icons/vue.png';
 import node from '../../assets/icons/node.png';
 import sql from '../../assets/icons/sql.png';
 import python from '../../assets/icons/python.png';
@@ -46,6 +48,8 @@ const Resume = () => {
           <img src={ts} alt='ts' className={skill} />
           <img src={css} alt='css' className={skill} />
           <img src={sass} alt='sass' className={skill} />
+          <img src={bootstrap} alt='sass' className={skill} />
+          <img src={vue} alt='vue' className={skill} />
           <div className={skill}>
             <img src={react} alt='react' className={reactStyle} />
           </div>
