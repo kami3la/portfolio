@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.89adb3d5.chunk.css",
-    "main.js": "/portfolio/static/js/main.c594a713.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c594a713.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.39b960b0.chunk.css",
+    "main.js": "/portfolio/static/js/main.fa053836.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fa053836.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
     "static/css/2.b2c32948.chunk.css": "/portfolio/static/css/2.b2c32948.chunk.css",
-    "static/js/2.ed2a0617.chunk.js": "/portfolio/static/js/2.ed2a0617.chunk.js",
-    "static/js/2.ed2a0617.chunk.js.map": "/portfolio/static/js/2.ed2a0617.chunk.js.map",
+    "static/js/2.ac054a74.chunk.js": "/portfolio/static/js/2.ac054a74.chunk.js",
+    "static/js/2.ac054a74.chunk.js.map": "/portfolio/static/js/2.ac054a74.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b2c32948.chunk.css.map": "/portfolio/static/css/2.b2c32948.chunk.css.map",
-    "static/css/main.89adb3d5.chunk.css.map": "/portfolio/static/css/main.89adb3d5.chunk.css.map",
-    "static/js/2.ed2a0617.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ed2a0617.chunk.js.LICENSE.txt",
+    "static/css/main.39b960b0.chunk.css.map": "/portfolio/static/css/main.39b960b0.chunk.css.map",
+    "static/js/2.ac054a74.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ac054a74.chunk.js.LICENSE.txt",
     "static/media/billards.0273d599.jpg": "/portfolio/static/media/billards.0273d599.jpg",
     "static/media/Background.module.scss": "/portfolio/static/media/stars.90c266f7.png",
     "static/media/czechy.586a0d13.jpg": "/portfolio/static/media/czechy.586a0d13.jpg",
@@ -21,6 +21,7 @@
     "static/media/holandia.2636edb0.jpg": "/portfolio/static/media/holandia.2636edb0.jpg",
     "static/media/js30.15409969.PNG": "/portfolio/static/media/js30.15409969.PNG",
     "static/media/malta.380301fc.jpg": "/portfolio/static/media/malta.380301fc.jpg",
+    "static/media/matmopoly.239d4566.JPG": "/portfolio/static/media/matmopoly.239d4566.JPG",
     "static/media/AboutMe.module.scss": "/portfolio/static/media/me2.3023b8d9.jpg",
     "static/media/Resume.module.scss": "/portfolio/static/media/my-photo2.3c77f9a4.JPG",
     "static/media/myPlants.457efd3c.jpg": "/portfolio/static/media/myPlants.457efd3c.jpg",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.76232b81.js",
     "static/css/2.b2c32948.chunk.css",
-    "static/js/2.ed2a0617.chunk.js",
-    "static/css/main.89adb3d5.chunk.css",
-    "static/js/main.c594a713.chunk.js"
+    "static/js/2.ac054a74.chunk.js",
+    "static/css/main.39b960b0.chunk.css",
+    "static/js/main.fa053836.chunk.js"
   ]
 }
